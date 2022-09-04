@@ -57,6 +57,7 @@ function clickHandler (){
         }
         else if (cp === sp) {
             
+            outputDiv.style.color = "blueviolet"
             outputDiv.innerText = "Seems like you haven't gone anywhere up or down. hehe."
         }
     }
